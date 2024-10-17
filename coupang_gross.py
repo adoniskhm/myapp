@@ -51,6 +51,7 @@ try:
 
     # 파일 저장 및 종료
     wb.save()
+
 finally:
     wb.close()
     app.quit()
